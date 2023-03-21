@@ -1,0 +1,174 @@
+/** banner section **/
+
+.banner_main {
+  background: url("src/assets/images/shutterstock_689934028-min.jpg");
+  background-repeat: no-repeat;
+  min-height: 650px;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.text-bg {
+  text-align: center;
+}
+
+.text-bg h1 {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 90px;
+  line-height: 100px;
+  padding-bottom: 15px;
+  font-weight: bold;
+}
+
+.text-bg p {
+  font-size: 17px;
+  color: #fff;
+  line-height: 28px;
+  font-weight: 500;
+  padding-bottom: 50px;
+  display: block;
+}
+
+.text-bg a {
+  font-size: 17px;
+  background-color: transparent;
+  color: #fff;
+  font-weight: 600;
+  padding: 11px 0px;
+  width: 100%;
+  max-width: 230px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 30px;
+  border: #f4cb1e solid 4px;
+  transition: ease-in all 0.5s;
+}
+
+.text-bg a:hover {
+  background-color: #13110e;
+  color: #fff;
+  transition: ease-in all 0.5s;
+}
+
+
+/** end banner section **/
+
+.titlepage {
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.titlepage h2 {
+  font-size: 50px;
+  color: #090807;
+  line-height: 62px;
+  font-weight: bold;
+  padding: 0;
+}
+
+.d_flex {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.blu {
+  color: #0808ff;
+}
+
+.read_more {
+  font-size: 17px;
+  background-color: #f4cb1e;
+  color: #fff;
+  padding: 13px 0px;
+  width: 100%;
+  max-width: 190px;
+  text-align: center;
+  display: inline-block;
+  transition: ease-in all 0.5s;
+  z-index: 9999;
+  position: relative;
+  font-weight: 500;
+}
+
+.read_more:hover {
+  background: #fff;
+  color: #000;
+  transition: ease-in all 0.5s;
+}
+
+
+/** three_box section **/
+
+.three_box {
+  margin-top: -160px;
+  width: 60%;
+  margin-left: 19%;
+
+}
+
+.box_text {
+  box-shadow: 0 12px 95px rgba(13, 3, 3, 0.56);
+}
+
+.box_text figure {
+  margin: 0%;
+}
+
+.box_text figure img  {
+  width: 100%;
+  height: 200px;
+  box-shadow: 0 0 95px rgba(13, 3, 3, 0.56);
+
+}
+
+
+/** end three_box section **/
+/** hottest section **/
+
+.hottest {
+  background: #fff;
+  padding: 90px 0 0px 0;
+}
+
+.hottest .titlepage {
+  padding-bottom: 0;
+  text-align: left;
+}
+
+.hottest .titlepage h2 {
+  color: #000;
+}
+
+.hottest .hottest_box {
+  position: relative;
+  background-color:#17a2b8;
+  padding: 60px 40px;
+}
+
+.hottest .hottest_box::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  bottom: 0;
+  left: -30px;
+  width: 31px;
+  height: 100%;
+  background-repeat: no-repeat;
+  display: block;
+  background-position: center center;
+}
+
+.hottest .hottest_box p {
+  color: #fff;
+  font-size: 17px;
+  line-height: 32px;
+  font-weight: 500;
+}
+
+
+/** end hottest section **/
