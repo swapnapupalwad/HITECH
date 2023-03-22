@@ -60,23 +60,27 @@
 
 .choose_box {
   display: flex;
+  margin-right:20%;
+
 }
 
-.choose_box i {
+.choose_box > i {
   float: left;
+  margin-right:05%;
 }
 
 .choose_box i img {
   float: left;
   background-color:#17a2b8;
-  width: 100px;
+  width: 80px;
   padding: 10px;
   border-radius: 60px;
 }
 
 .choose_text {
   float: right;
-  padding-left: 20px;
+  padding-left: 0px;
+
 }
 
 .choose_text h3 {
@@ -89,7 +93,7 @@
 
 .choose_text p {
   color: #fff;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 30px;
 }
 
